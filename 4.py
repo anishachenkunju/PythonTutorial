@@ -17,6 +17,7 @@ def translate(word):
             
     else:
         print('word does not exist')
+        # new line
 
 word  = input('enter a word:')
 output = translate(word)
