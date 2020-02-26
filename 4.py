@@ -13,7 +13,7 @@ def translate(word):
         if yn == 'Y':
             return data[get_close_matches(w,data)[0]]
         else:
-            print('word does nt exist')
+            print('word does not exist')
             
     else:
         print('word does not exist')
